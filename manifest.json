@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "name": "v3u.cn-python_interview",
+    "description": "Dotions - python面试题",
+    "version": "1.0",
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_popup": "popup.html",
+        "default_title": "点这里查看面试题"
+    },
+    "permissions": [
+        "tabs",
+        "webRequest", 
+        "webRequestBlocking",
+        "storage",
+        "webNavigation",	
+        "tabs",			
+        "contextMenus",		
+        "http://*/",		
+        "https://*/",
+        "notifications"	
+    ]
+}
